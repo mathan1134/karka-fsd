@@ -1,0 +1,23 @@
+.parent{
+    border: 5px solid rgb(173, 83, 83);
+    width: 500px;
+    height: 500px;
+    position: relative;
+    
+}
+.child1{
+    position: absolute;
+    background-color: rgb(194, 148, 63);
+}
+.child2{
+    position: absolute;
+    background-color: rgb(194, 148, 63);
+    top:40%;
+    right:-25px;
+}
+.child3{
+    position: absolute;
+    background-color: rgb(194, 148, 63);
+    bottom:5px;
+    left:10px;
+}

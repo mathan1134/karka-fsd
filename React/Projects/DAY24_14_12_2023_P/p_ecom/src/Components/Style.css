@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+
+.top{
+    width: 100%;
+    background-color: rgb(118, 118, 202);
+    padding: 0.04%;
+}
+.sympol{
+    margin-left: 80%;
+}
+
+.nav{
+    background-color:  rgb(118, 118, 202);
+    width: 10%;
+    text-align: center;
+    font-size: large;
+}
+.view{
+    margin-top: 1%;
+    display: flex;
+}
+.content{
+    text-align: center;
+    display: grid;
+    display: inline-flex;
+    margin-left: 1%;
+    justify-content: space-between;
+    width: 88%;
+    background-color: rgb(118, 118, 202);
+    padding: 1% 1% 0% 1%;
+    
+}
+.cartsub{
+    text-align: center;
+    background-color: blueviolet;   
+}
+
+button{
+    padding: 2%;
+    border-radius: 2mm;
+    background-color: white;
+    color: blue;
+}
+button:hover{
+    background-color: yellow;
+}
+.cartsub button.carrt{
+    padding: 0.5%;
+    background-color: aquamarine;
+}

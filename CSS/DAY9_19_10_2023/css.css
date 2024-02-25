@@ -1,0 +1,68 @@
+.e1{
+    border: 4px dotted black;
+    margin-right: 80%;
+}
+.e1 h1{
+    color: red;
+}
+
+.ex2{
+    border: 4px dotted black;
+    margin-right: 80%;
+}
+.ex2 p{
+    font-size: 40px;
+    color: white;
+    margin-right: 20%;
+    margin-top: 4%;
+    margin-left: 4%;
+    background-color: red;
+}
+
+.ex3{
+    border: 4px dotted black;
+    margin-right: 70%;
+    margin-bottom: 50px;
+}
+.ex3 p{
+    font-size: 40px;
+    color: white;
+    margin-right: 25%;
+    margin-top: 4%;
+    margin-bottom: 40px;
+    background-color: red;
+}
+
+.ex5{
+    border: 4px dotted black;
+}
+.ex5 p{
+    border: 2px solid red;
+    padding: 3% 2% 3% 2%;
+    font-size: larger;
+}
+.ex6{
+    border: 4px dotted black;
+
+}
+.ex6 p{
+    border: 2px solid red;
+    padding: 3% 2% 3% 2%;
+    font-size: larger;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.ex7{
+    border: 4px dotted black;  
+}
+.ex7 h5{
+    border: 3px solid green;
+   padding-bottom: 25%;
+   padding-right: 25%;
+   margin-right: 5%;
+}
+.ex7 p2{
+    border: 2px green;
+    padding-inline-start: 0px ;
+}

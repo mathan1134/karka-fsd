@@ -1,0 +1,184 @@
+
+.container{
+    
+    cursor: pointer;
+    width: 70%;
+    margin:0px auto;
+}
+.header h2{
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-style: oblique;
+    font-size: x-large;
+}
+.header{
+    background-color:black;
+    height: 80px;
+}
+.header img{
+    height: 80px;
+    width: 350px;
+}
+.header ul{
+    float: right;
+    margin-top: -30px;
+}
+.header ul li{
+    display: inline;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+.header ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 10px;
+    
+}
+.top{
+    background-color: rgb(168, 168, 191);
+    width: 50%;
+    height: 200px;
+}
+.top h3{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.top p{
+    padding-left: 10px;
+}
+.top h5 a{
+    background-color: orange;
+    margin-left: 10px;
+    margin-right: 380px;
+    color: black;
+
+}
+.top2{
+    background-color:rgb(168, 168, 191);
+    width: 51%;
+    height: 200px;
+    float: right;
+    margin-top: -200px ;
+}
+.top2 img{
+    padding-left: 10px;
+    padding-top: 30px;
+    height: 130px;
+    width: 380px;
+
+}
+.middle {
+   
+    width: 100%;
+    height: 300px;
+}
+.middle {
+   
+     height: 350px;
+     width: 32%;
+     float: left;
+}
+.mid1 {
+   
+    height: 350px;
+    width: 32%;
+    float: left;
+    margin-left: 15px;
+}
+.mid2 {
+   
+    height: 350px;
+    width: 32%;
+    float: right;
+}
+.middle h3{
+    margin: 10px;
+    
+}
+.middle img{
+    width: 50%;
+    height: 100px;
+    padding-left: 20px;
+}
+
+.mid1 img{
+    width: 50%;
+    height: 100px;
+    padding-left: 20px;
+    padding-top: 65px;
+}
+.mid2 img{
+    width: 50%;
+    height: 100px;
+    padding-left: 20px;
+    padding-top: 65px;
+}
+.middle h5 a{
+    background-color: orange;
+    margin-left: 10px;
+    margin-right: 380px;
+    color: black;
+}
+.mid1 h5 a{
+    background-color: orange;
+    margin-left: 10px;
+    margin-right: 380px;
+    color: black;
+}
+.mid2 h5 a{
+    background-color: orange;
+    margin-left: 10px;
+    margin-right: 380px;
+    color: black;
+}
+.low1 {
+    background-color: black;
+    width: 33%;
+    height: 230px;
+    float: left;
+}
+.low2 {
+    background-color: black;
+    width: 40%;
+    height: 230px;
+    float: left;
+    
+}
+.low3 {
+    background-color: black;
+    width: 27%;
+    height: 230px;
+    float: right;
+}
+.low3 ul h3 a{
+    text-decoration: none;
+    color: white;
+}
+.low3 ul h3{
+    padding-left: 25px;
+  
+}
+.low1 h3{
+    padding-left: 20px;
+}
+.end{
+    background-color:white;
+    height: 35px;
+    clear: both;
+    width: 100%;
+    padding-left: 30%;
+    padding-top: 5px;
+}
+.low3 p{
+    color: white;
+}
+
+.low2{
+    color: white;
+}
+.low1 img{
+   width: 15%;
+   height: 15%;
+}

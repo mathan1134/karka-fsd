@@ -1,0 +1,52 @@
+.form{
+    background-color: rgb(255, 0, 140);
+    text-align: center;
+    margin: 10% 25% 0% 25%;
+    padding: 5%;
+    color: white;
+    border-radius: 3mm;
+   
+}
+a{
+    text-decoration: none;
+    color: aqua;
+}
+#regusername{
+   margin-left:1% ;
+   margin-bottom: 3%;
+}
+#regpassword{
+    margin-left: 2.5%;
+}
+h1{
+    margin-bottom: 8%;
+}
+.body2{
+    background-color:  rgb(255, 0, 140);
+    color: white;
+    text-align: center;
+    padding: 5%;
+    margin: 10% 25% 0% 25%;
+    color: white;
+    border-radius: 3mm;
+}
+#logusername{
+    margin-left:1% ;
+    margin-bottom: 3%;
+ }
+ #logpassword{
+     margin-left: 2.5%;
+ }
+ h2{
+     margin-bottom: 8%;
+ }
+
+ .last{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 5%;
+    margin: 10% 25% 0% 25%;
+    color: white;
+    border-radius: 3mm;
+ }

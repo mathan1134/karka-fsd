@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    color: rgb(0, 225, 255);
+}
+body{
+    color: aliceblue;
+    background-image: url(image2.jpg);
+    
+}
+button{
+    margin-left: 40%;
+    margin-top: 5%;
+    padding: 1.5%;
+    border-radius: 3mm;
+    background-color: red;
+    box-shadow: 0 5px 0 red;
+    color: white;
+    
+}
+button:active{
+    box-shadow: none;
+    transform: translateY(5px); 
+}
+h4{
+    display: none;
+}
+.div1{
+    background-color: rgb(207, 188, 163);
+    color: black;
+    border-radius: 4mm;
+    padding: 1% 0% 5% 5%; 
+    margin: 0% 40% 0% 5%;
+    /* display: none; */
+}
+ #ans1,#ans2,#ans3,#ans4,#ans5,#ans6,#ans7,#ans8,#ans9,#ans10,#ans11,#ans12,#ans13,#ans14,#ans15,#ans16,#ans17,#ans18,#ans19,#ans20{
+  background-color: yellow;
+  padding: 0.5%;
+  margin-right: 60%;
+  border-radius: 3mm;
+  text-align: center;
+  display: none;
+
+ 
+}
+.div2{
+    background-color: rgb(82, 92, 88);
+    
+    padding: 8%;
+    position: absolute;
+    margin: 8% 30% 10% 30%;
+    color: white;
+    text-align: center;
+    border-radius: 2mm;
+    display: none;
+    top: 310%;
+}

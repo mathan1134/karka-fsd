@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: blanchedalmond;
+}
+.correct-answer {
+    color: green !important;
+}
+.incorrect-answer {
+    color: red !important;
+}
+.form ,p,label{
+    background-color: aliceblue;
+    border-radius: 10mm;
+    
+}
+.form{  
+    padding: 3% 10% 10% 10%;
+    position: absolute;
+    margin-right: 50%;
+    
+}
+h1{
+    margin-top: 5%;
+    text-align: center;
+    color: blue;
+    
+}
+button a{
+    text-decoration: none;
+}
+.form{
+    margin: 5% 0% 0% 10% ;
+    
+}
+#ans1,#ans2,#ans3,#ans4,#ans5{
+     background-color: yellow;
+     border-radius: 3mm;
+     margin-right: 70%;
+     /* padding: 0.5%; */
+     text-align: center;
+     display: none;
+}
+#bt1,#bt2,#bt3,#bt4,#bt5{
+    background-color: gray;
+}
+#all{
+    background-color: brown;
+    padding: 3%;
+    border-radius: 2mm; 
+    margin: 25% 0% 3% 30%;
+}
+ #score{
+    display: none;
+}

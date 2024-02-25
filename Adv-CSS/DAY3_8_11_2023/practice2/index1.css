@@ -1,0 +1,38 @@
+.ex1{
+ border: 4px dotted black;
+ height: 300px;
+ width: 70%;
+
+}
+.ex1 .para{
+    background-color: aqua;
+    color: white;
+    height: 50%;
+    overflow: scroll;   
+}
+
+.ex2{
+    border: 4px dotted black;
+    width: 40%;
+    height: 150px;
+}
+.bg{
+    background-color: rgb(49, 245, 49);
+    width: 20%;
+    height: 150px;
+    position: absolute;
+    z-index: -1 ;
+}
+.ex3{
+    border: 2px dotted black;
+    width: 70%;
+    height: 430px;
+}
+.ex3 p{
+    float: right;
+    
+}
+.ex3 img{
+    float: left;
+    /* clear: both; */
+}

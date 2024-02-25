@@ -1,0 +1,16 @@
+body{
+    background-color: aqua;
+    font-size: x-small;
+    color:red;
+    
+}
+
+@media screen and (max-width :800px) and (min-width :500px) {
+body{
+    background-image: url(https://hullabaloo.co.uk/wp-content/uploads/2016/03/Hullabaloo-Loughborough-Graphics-Design-Blog-Images-0042..jpg);
+    /* background-color: blue; */
+   font-size: large;
+   color: green;
+   
+}
+}

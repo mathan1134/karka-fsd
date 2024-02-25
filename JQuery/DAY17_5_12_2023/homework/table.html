@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <script>
+      const students = [
+            {name: "mathan", age: 25, place: "moolachel"},
+            {name: "arun", age: 25, place: "mondaymarket"},
+            {name: "jameswatt", age: 26, place: "nagercoil"},
+            {name: "mahathi", age: 17, place: "thengapatanam"},
+            {name: "jemil", age: 21, place: "karka"},
+            {name: "ajay", age: 23, place: "karka"},
+            {name: "manish", age: 23, place: "karka"}
+        ]
+
+      const table = `
+            <table>
+                <thead>
+                    <tr>
+                        <th>s.no</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Place</th>
+                    </tr>
+                </thead>
+                <tbody>
+            ${students.map((student, index) => ` <tr>                    
+                            <td>${index + 1}</td>
+                            <td>${student.name}</td>
+                            <td>${student.age}</td>
+                            <td>${student.place}</td></tr>  `).join('')} 
+                </tbody>
+            </table>`
+
+        $('body').append(table);
+    </script>
+</body>
+</html>

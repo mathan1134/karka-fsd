@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+        #name{
+         background-color: rgb(139, 173, 173);
+         border-radius: 3mm;
+         margin-left: 9%;
+         
+        }
+        .entry{
+            position: absolute;
+            border: 2px solid rgb(68, 0, 255);
+            background-color: rgb(4, 4, 12);
+            text-align: center;
+            padding: 4%;
+            justify-content: center;
+            margin-left: 35%;
+            margin-top: 10%;
+            border-radius: 50mm;
+            filter: drop-shadow( 8px 9px 2px blue);
+            
+        }
+        .entry:hover{
+          font-size: x-large;
+          color: azure;
+        }
+       
+        #password{
+            background-color: rgb(139, 173, 173);
+         border-radius: 3mm; 
+        }
+        h1{
+          text-align: center;
+          color: rgb(75, 21, 202);
+        }
+        #click{
+          background-color: blue;
+          box-shadow: 1px 1px 1px 0px black;
+          border-radius: 2mm;
+          padding: 2%;
+          transition: 0.5s;
+        }
+        #click:hover{
+          background-color: gold;
+          letter-spacing: 0.25em;
+          box-shadow: 0 0 35px;
+        }
+        #click a{
+          text-decoration: none;
+          color: black;
+        }
+        body{
+          background-image: url(img.jpeg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          
+
+        }
+        
+
+    </style>
+</head>
+
+<body >
+  <div class="entry">
+    <h1>Computer Quiz</h1><br><br>
+    <label for="">Name:</label>
+    <input type="text" id="name" placeholder="user name...." ><br>
+    <label for="">Password:</label>
+    <input type="password" placeholder="password..." id="password"><br><br>
+    <button id="click"><a href="quiz1.html">submit</a></button>
+  </div>
+
+   
+</body>
+</html>

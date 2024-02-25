@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding:0
+}
+.content{
+    background-image: url('th.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover   ;
+    object-fit: contain;
+
+    height: 500px;
+}
+.content h1{
+    position: absolute;
+    top: 210px;
+    left: 450px;
+    font-size: 300%;
+}
+.content1{
+    background-color: rgba(37, 18, 18, 0.507);
+    width: 95%;
+    height: 50px;
+    top:40px;
+    position: absolute;
+    right: 30px;
+    filter: blur(2px);
+    /* z-index: 5; */
+}
+
+.content form ul a{
+    text-decoration: none;
+}
+.content form ul input{
+    width: 21%;
+}
+.content img{
+    width: 2%;
+    height:5%;
+    position: relative;
+    top: 10%;
+    left: 8%;
+    z-index: 40;
+    
+}
+.content h3{
+    margin-left: 10%;
+    top: 5%;color: white;
+    font-size: x-large;
+   position: relative;
+   z-index: 45;
+
+}
+.content form ul{
+    float: right;
+    top: 9%;
+    position: absolute;
+    left: 70%;
+    z-index: 55;
+}
+.content form ul a{
+    color: white;
+    position: relative;
+    
+    
+}
+.content2{
+    rotate: 45deg;
+    background-color:rgba(37, 18, 18, 0.507) ;
+    filter: blur(2px);
+    width: 15%;
+    height: 25%;
+    left: 40%;
+    top: 38%;
+    position: absolute;
+}
+.content p{
+    position: absolute;
+    left: 34%;
+    color: white;
+    top: 48%;
+}
+.content .world{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    font-size: 200%;
+    background-color: orange;
+    border-radius: 3mm;
+    color: white;
+    text-decoration: none;
+    
+}
+.now{
+    position: absolute;
+    left: 30%;
+    top: 60%;
+    font-size: 200%;
+    color: white;
+    text-decoration: none;
+}
+.body{
+    width: 100%;
+    height: 500px;
+    background-color:darkkhaki;
+}
+.body img{
+    position: relative;
+    top: 12%;
+    left: 4%;
+    width: 40%;
+    opacity: 0.7;
+}
+.side{
+    float: right;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    padding-left: 1%;
+    padding-right: 8%;
+}
+.side a{
+    font-size: 120%;
+    border-radius: 3mm;
+    border: 1px dotted black;
+    position: absolute;
+    text-decoration: none;
+}
+.body h5{
+    position: absolute;
+    font-size: 270%;
+    color: white;
+    top: 138%;
+    left: 7%;
+    padding-right: 60%;
+}
+.body1{
+    background-color: burlywood;
+    width: 100%;
+    height: 500px;
+}
+.body1 h1{
+    color: white;
+}
+.body1 h4{
+    color: white;
+}
+.side1{
+    background-image:url(person1.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    width: 22%;
+    height: 60%;
+    margin-left: 3%;
+    border-radius: 5mm;
+    float: left;
+    background-image: linear-gradient(to bottom, red, none);
+}
+.side1 h2{
+    padding-top: 65%;
+    padding-left: 5%;
+    color: white;
+}
+.side1 a{
+    position: relative;
+    bottom: 20%;
+    left: 33%;
+    background-color: orange;
+    text-decoration: none;
+    border-radius: 2mm;
+}
+.side1 p{
+    padding-left: 5%;
+    color: white;
+}
+.side2{
+    background-image:url(person2.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    width: 22%;
+    height: 60%;
+    margin-left: 2%;
+    border-radius: 5mm;
+    float: left;
+}
+.side2 h2{
+    padding-top: 65%;
+    padding-left: 5%;
+    color: white;
+}
+.side2 a{
+    position: relative;
+    bottom: 20%;
+    left: 33%;
+    background-color: orange;
+    text-decoration: none;
+    border-radius: 2mm;
+}
+.side2 p{
+    padding-left: 5%;
+    color: white;
+}
+.side3{
+    background-image:url(person3.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    width: 22%;
+    height: 60%;
+    margin-left: 2%;
+    border-radius: 5mm;
+    float: left;
+}
+.side3 h2{
+    padding-top: 65%;
+    padding-left: 5%;
+    color: white;
+}
+.side3 a{
+    position: relative;
+    bottom: 20%;
+    left: 33%;
+    background-color: orange;
+    text-decoration: none;
+    border-radius: 2mm;
+}
+.side3 p{
+    padding-left: 5%;
+    color: white;
+}
+.side4{
+    background-image:url(person4.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    width: 22%;
+    height: 60%;
+    margin-left: 2%;
+    border-radius: 5mm;
+    float: left;
+}
+.side4 h2{
+    padding-top: 65%;
+    padding-left: 5%;
+    color: white;
+}
+.side4 a{
+    position: relative;
+    bottom: 20%;
+    left: 33%;
+    background-color: orange;
+    text-decoration: none;
+    border-radius: 2mm;
+}
+.side4 p{
+    padding-left: 5%;
+    color: white;
+}
+.group{
+    background-image: url('./group_tea.jpeg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.grp1{
+    background-color: black;
+    width: 40%;
+    height: 400px;
+    opacity: 0.5;
+    margin-left: 5%;
+    position: absolute;
+    margin-top: 5%;
+    color: white;
+    float: left;
+    border-radius: 5mm;
+
+}
+.grp1 h3{
+    word-spacing: 400px;
+}
+.grp2{
+    background-color: black;
+    width: 40%;
+    height: 400px;
+    opacity: 0.5;
+    position: relative;
+    margin-top: 5%;
+    color: white;
+    float: right;
+    border-radius: 5mm;
+    margin-right: 5%;
+}
+.grp2 h3{
+    word-spacing: 400px;
+}
+.final1{
+    background-color: gray;
+    width: 100%;
+    height: 900px;
+    color: white;
+}
+.box1{
+    background-color: rgb(187, 153, 89);
+    width: 30%;
+    height: 250px;
+    margin-left: 10%;
+    position: absolute;
+    margin-top: 5%;
+    border: 5px solid white;
+    border-radius: 3mm;
+}
+.in{
+    width: 100%;
+    height: 40%;
+    background-image: url(/task/group_tea.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+.box1 p{
+    top: 8%;
+    padding-left: 5%;
+    position: relative;
+}
+.box1 img{
+    height: 25%;
+    position: relative;
+    bottom: 80%;
+    left: 5%;
+    border-radius: 5mm;
+}
+.box1 h4{
+    bottom: 70%;
+    left: 18%;
+    position: absolute;
+    z-index: 33;
+}

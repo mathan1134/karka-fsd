@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-color: violet;
+    padding: 20px;
+    margin: 1%;
+   
+}
+.navi{
+    background-color:orangered ;
+    padding: 20px;
+    position: sticky;
+    margin: 1%;
+    top: 0px;
+
+}
+.content{
+    display: flex;
+    font-display: 1px;
+}
+
+.content1{
+    margin-top: 1%;
+    background-color: green;
+    width: 60%;
+    
+    margin: 1%;
+    
+}
+.d1{
+    background-color: blue;
+    padding: 5%;
+    margin: 2%;
+    margin-top: 10%;
+}
+.d2{
+    background-color: blue;
+    padding: 5%;
+    margin: 2%;
+}
+.content2{
+    vertical-align: top;
+    background-color: darkblue;
+    
+    width: 36.7%;
+    height: 370px;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin: 1% 1% 1% 0%;
+}
+.foot{
+    
+    background-color: orange;
+    padding: 15%;
+    margin: 1%;
+    padding-bottom: 2%;
+}
+body{
+    background-color: brown;
+    /* color: white; */
+    
+}
+.start .bar{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}

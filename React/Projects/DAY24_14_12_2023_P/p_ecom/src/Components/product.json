@@ -1,0 +1,64 @@
+{
+    "data":[
+        {   "img":"./Assets/download.jpg",
+            "name":"men1",
+            "cattagery":"men",
+            "size":"l",
+            "aname":"dress",
+            "id":1,
+            "currency": "Rs",
+            "price":  2000
+            
+        },
+        {
+            "img":"./Assets/OIP.jpg",
+            "name":"men2",
+            "cattagery":"men",
+             "size":"l",
+            "aname":"dress",
+            "id":2,
+            "currency": "Rs",
+            "price":1500
+        },
+        {
+            "img":"./Assets/OIP (1).jpg",
+            "name":"men3",
+            "cattagery":"men",
+            "size":"m",
+            "aname":"dress",
+            "id":3,
+            "currency": "Rs",
+            "price":1800
+        },
+        {
+            "img":"./Assets/th.jpg",
+            "name":"women3",
+            "size":"m",
+            "cattagery":"women",
+            "aname":"dress",
+            "id":4,
+            "currency": "Rs",
+            "price":2200
+        },
+        {
+            "img":"./Assets/th (1).jpg",
+            "name":"women2",
+            "cattagery":"women",
+            "size":"m",
+            "aname":"dress",
+            "id":5,
+            "currency": "Rs",
+            "price":1990
+        },
+        {
+            "img":"./Assets/th (2).jpg",
+            "cattagery":"women",
+            "name":"women1",
+            "size":"l",
+            "aname":"dress",
+            "id":6,
+            "currency": "Rs",
+            "price":2000
+        }
+    ]
+}

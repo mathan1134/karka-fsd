@@ -1,0 +1,49 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "title": "Harry Potter and the Philosopher's Stone",
+        "year": 1997,
+        "genre": "Fantasy",
+        "rating": 4.8
+      },
+      {
+        "id": 2,
+        "title": "To Kill a Mockingbird",
+        "year": 1960,
+        "genre": "Fiction",
+        "rating": 4.5
+      },
+      {
+        "id": 3,
+        "title": "The Great Gatsby",
+        "year": 1925,
+        "genre": "Classics",
+        "rating": 4.3
+      }
+    ],
+    "movies": [
+      {
+        "id": 1,
+        "title": "Terminator",
+        "year": 1984,
+        "type": "Action",
+        "rating": 7.6
+      },
+      {
+        "id": 2,
+        "title": "The Matrix",
+        "year": 1999,
+        "type": "Science Fiction",
+        "rating": 8.7
+      },
+      {
+        "id": 3,
+        "title": "Inception",
+        "year": 2010,
+        "type": "Thriller",
+        "rating": 8.8
+      }
+    ]
+  }
+  

@@ -1,0 +1,66 @@
+[
+    {
+        "employee_id": 1,
+        "first_name": "John",
+        "last_name": "Doe",
+        "job_title": "Software Engineer",
+        "hire_date": "2022-01-01",
+        "salary": "77000.00"
+    },
+    {
+        "employee_id": 2,
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "job_title": "Data Analyst",
+        "hire_date": "2022-02-15",
+        "salary": "65000.00"
+    },
+    {
+        "employee_id": 4,
+        "first_name": "Alice",
+        "last_name": "Jone",
+        "job_title": "Database Administrator",
+        "hire_date": "2022-04-05",
+        "salary": "75000.00"
+    },
+    {
+        "employee_id": 5,
+        "first_name": "Charlie",
+        "last_name": "Brown",
+        "job_title": "System Analyst",
+        "hire_date": "2022-05-20",
+        "salary": "85000.00"
+    },
+    {
+        "employee_id": 1,
+        "first_name": "John",
+        "last_name": "Doe",
+        "job_title": "Software Engineer",
+        "hire_date": "2022-01-01",
+        "salary": "77000.00"
+    },
+    {
+        "employee_id": 2,
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "job_title": "Data Analyst",
+        "hire_date": "2022-02-15",
+        "salary": "65000.00"
+    },
+    {
+        "employee_id": 4,
+        "first_name": "Alice",
+        "last_name": "Jone",
+        "job_title": "Database Administrator",
+        "hire_date": "2022-04-05",
+        "salary": "75000.00"
+    },
+    {
+        "employee_id": 5,
+        "first_name": "Charlie",
+        "last_name": "Brown",
+        "job_title": "System Analyst",
+        "hire_date": "2022-05-20",
+        "salary": "85000.00"
+    }
+]

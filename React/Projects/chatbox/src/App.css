@@ -1,0 +1,189 @@
+/* Login.css */
+
+.login_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; 
+}
+
+.login_span{
+  color: red;
+  margin-left: 10%;
+}
+
+.login_container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  padding: 20px;
+  width: 300px;
+}
+
+.login_h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;  
+}
+
+.login_form {
+  margin-bottom: 20px;
+}
+
+.login_input1,
+.login_input2,
+.login_button {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.login_button {
+  background-color: #007bff; 
+  color: #fff; 
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 4%;
+}
+
+.login_button:hover {
+  background-color: #0056b3;  
+}
+
+.login_p {
+  text-align: center;
+  
+}
+
+.login_link {
+  color: #2e4ae9;  
+  text-decoration: none ;
+}
+
+.login_link:hover {
+  text-decoration: underline;  
+}
+
+/* Register.css */
+
+.Reg_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.Reg_main2 {
+  background-color: #fff; 
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  padding: 20px;
+  width: 300px;
+}
+
+.Reg_h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333; 
+}
+
+.Reg_form {
+  margin-bottom: 20px;
+}
+
+.reg_input1,
+.reg_input2,
+.reg_input3,
+.Reg_button {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.Reg_button {
+  background-color: #007bff; 
+  color: #fff; 
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 4%;
+  margin-top: 7%;
+}
+
+.Reg_button:hover {
+  background-color: #0056b3; 
+}
+
+.reg_p {
+  text-align: center;
+}
+
+.reg_link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.reg_link:hover {
+  text-decoration: underline; 
+}
+
+.reg_span{
+    color: red;
+    margin-left: 25%;
+}
+
+/* Chat .css */
+
+.chat_main {
+  width: 100%;
+  max-width: 600px; 
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.chat_responses {
+  margin-bottom: 20px;
+}
+
+.chat_response {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.chat_form {
+  display: flex;
+}
+
+.chat_input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* .chat_inputuser{
+   
+} */
+
+.chat_button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.chat_button:hover {
+  background-color: #0056b3;
+}
