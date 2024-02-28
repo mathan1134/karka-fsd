@@ -13,10 +13,7 @@ const Register = () => {
             setError('User already exists');
         } else {
             localStorage.setItem(username, password);
-            setError('');
-            alert(
-                "account create sucessfully" 
-            )
+            alert("account created successfully");
 
         }
     };

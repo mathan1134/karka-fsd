@@ -5,8 +5,11 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f0f0f0; 
+  background-image: url("https://th.bing.com/th/id/R.2e82e6b29da32ab9bff91c69b1859f35?rik=228VbOSvX2LM8g&riu=http%3a%2f%2fwww.wallpaperbetter.com%2fwallpaper%2f186%2f923%2f715%2flove-romance-valentines-day-heart-vector-abstract-artistic-free-desktop-background-1080P-wallpaper.jpg&ehk=flyqI6aSfrTpdyUuZs2L7Ylogc6TZAyk9fLvAfwLl8Y%3d&risl=&pid=ImgRaw&r=0");
+  background-size: cover;
+  background-position: center;
 }
+
 
 .login_span{
   color: red;
@@ -14,11 +17,11 @@
 }
 
 .login_container {
-  background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   padding: 20px;
   width: 300px;
+  background-image: url("");
 }
 
 .login_h3 {
@@ -40,10 +43,11 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-bottom: 10px;
+  
 }
 
 .login_button {
-  background-color: #007bff; 
+  background-color: #f137f1; 
   color: #fff; 
   font-weight: bold;
   cursor: pointer;
@@ -51,7 +55,7 @@
 }
 
 .login_button:hover {
-  background-color: #0056b3;  
+  background-color: #da76c9;  
 }
 
 .login_p {
@@ -76,14 +80,17 @@
   align-items: center;
   height: 100vh;
   background-color: #f0f0f0;
+  background-image: url("https://homesandlandmedia.com/wp-content/uploads/2014/10/valentines-day-background.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .Reg_main2 {
-  background-color: #fff; 
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   padding: 20px;
   width: 300px;
+  background-image: url("");
 }
 
 .Reg_h3 {
@@ -109,7 +116,7 @@
 }
 
 .Reg_button {
-  background-color: #007bff; 
+  background-color: #c23db7; 
   color: #fff; 
   font-weight: bold;
   cursor: pointer;
@@ -118,7 +125,7 @@
 }
 
 .Reg_button:hover {
-  background-color: #0056b3; 
+  background-color: #b476ac; 
 }
 
 .reg_p {
@@ -139,51 +146,98 @@
     margin-left: 25%;
 }
 
-/* Chat .css */
 
-.chat_main {
-  width: 100%;
-  max-width: 600px; 
-  margin: 0 auto;
-  padding: 20px;
+/* Chat.css */
+*{
+  margin: 0px;
+  position: 0px;
 }
 
-.chat_responses {
-  margin-bottom: 20px;
+.chat_main {
+  width: 450px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  height: 100vb;
+  overflow: auto;
+  background-image: url("https://i.pinimg.com/originals/85/ec/df/85ecdf1c3611ecc9b7fa85282d9526e0.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.chat_line {
+  width: 100%;
+  background-image: url("");
+  background-position: center;
+  background-size: cover;
+}
+
+.chat_message_pair {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px ;
+  margin-top: 10px;
+}
+
+.chat_inputuser {
+  background-color: #3710e0;
+  padding: 10px;
+  border-radius: 25px 25px 0px 25px;
+  max-width: 70%;
+  align-self: flex-end;
+  color: white;
+  margin-right: 10px;
+  
 }
 
 .chat_response {
-  background-color: #f0f0f0;
-  border-radius: 8px;
-  padding: 10px;
-  margin-bottom: 10px;
+  
+    background-color: rgb(228, 21, 228);
+    color: #fff;
+    padding: 10px;
+    border-radius: 25px 25px 25px 0px;
+    margin-top: 2%;
+    align-self: flex-start;
+    margin-left:10px ;
 }
 
 .chat_form {
   display: flex;
+  margin-top: 120%;
+  position: sticky;
+  bottom: 3px;
+  background-color: rgb(244, 244, 247);
+  padding: 10px;
+  
+  
 }
 
 .chat_input {
   flex: 1;
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 20px;
+  
 }
-
-/* .chat_inputuser{
-   
-} */
 
 .chat_button {
-  padding: 10px 20px;
-  background-color: #007bff;
+  background-color: rgb(119, 23, 197);
   color: #fff;
   border: none;
-  border-radius: 5px;
+  padding: 10px 20px;
+  border-radius: 20px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
-.chat_button:hover {
-  background-color: #0056b3;
+.chat_head{
+  background-image: url("https://img.freepik.com/free-vector/realistic-style-technology-particle-background_23-2148426704.jpg");
+  background-position: center;
+  background-size: cover;
+  
 }
+
+.chat_main::-webkit-scrollbar {
+  width: 0;
+  height: 0; 
+}
+

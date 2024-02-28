@@ -2,37 +2,42 @@ import React, { useState } from "react";
 
 const Chat = () => {
     const [message, setMessage] = useState("");
-    const [messagesList, setMessagesList] = useState([])
-    const [list,newList]=useState([])
-
+    const [messagePairs, setMessagePairs] = useState([]);
 
     const handleMessage = (e) => {
         e.preventDefault();
         if (message.trim() !== "") {
-            setMessagesList([...messagesList,message] )
+            let response = "";
             if (message === "hi") {
-                setMessagesList([...messagesList, "hi user"])
-            }if(message === "goodmorning")(
-                setMessagesList([...messagesList,"goodmorning user"])
-            )
+                response = "hi user";
+            } else if (message === "good morning") {
+                response = "good morning user";
+            }  else if (message === "bye") {
+                response = "Thank you to spend the time with me";
+            }
+            else {
+                response = "i could't understand ur message";
+            }
+            const newMessagePairs = [...messagePairs, { userMessage: message, response }];
+            setMessagePairs(newMessagePairs);
+            setMessage('');
         }
-        if(message.trim()!==""){
-            newList([...list,message])
-        }
-    }
+    };
 
     return (
+        <div style={{top:"0px"}} className="chat_head">
         <div className="chat_main">
-            <div>
-                {list.map((usr,index)=>(
-                    <div className="chat_inputuser" key={index}>{usr}</div>
-                ))}
+            <div style={{padding:"15px", position:"sticky",top:"0",borderBottom: '1px solid #ccc' ,backgroundColor:" rgb(119, 23, 197)",color:"white"}}>
+            <h2 style={{ marginLeft: "30%" }}>Random Chat</h2>
             </div>
-            <div className="chat_responses">
-                {messagesList.map((msg, index) => (
-                    <div key={index} className="chat_response">{msg}</div>
+            <div  className="chat_line"></div>
+                {messagePairs.map((pair, index) => (
+                    <div key={index} className="chat_message_pair">
+                        <div className="chat_inputuser">{pair.userMessage}</div>
+                        <div className="chat_response">{pair.response}</div>
+                    </div>
                 ))}
-            </div>
+
             <form className="chat_form" onSubmit={handleMessage}>
                 <input
                     className="chat_input"
@@ -43,6 +48,7 @@ const Chat = () => {
                 />
                 <button className="chat_button" type="submit">Send</button>
             </form>
+        </div>
         </div>
     );
 };
